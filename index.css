@@ -1,0 +1,65 @@
+.hide {
+    display: none;
+}
+
+.visible-first-stage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.visible-second-stage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.visible-third-stage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.visible-fourth-stage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.visible-fifth-stage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourth-button{
+    width: 100px;
+    height: 40px;
+}
+
+.hp-monster-third-stage {
+    background-color: green;
+}
+
+.hp-user-third-stage {
+    background-color: green;
+}
+
+#input-second-stage {
+    margin: 15px;
+}

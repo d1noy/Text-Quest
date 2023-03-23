@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="start-button">Начать игру</button>
+    
+    <div id="first-stage" class="hide">
+        Угадайте дверь
+        <div id="img1-first-stage"><img src="img/door.png"></div>
+        <div id="img2-first-stage"><img src="img/door.png"></div>
+        <div id="img3-first-stage"><img src="img/door.png"></div>
+        <div id="answer-first-stage"></div>
+    </div>
+
+    <div id="second-stage" class="hide">
+        Укажите верное значение
+        <div>
+        Сколько будет 2+2*2
+        <input id="input-second-stage">
+        </div>
+        <button id="accept-second-stage">Ответить</button>
+        <div id="answer-second-stage"></div>
+
+    </div>
+
+    <div id="third-stage" class="hide">
+        <div id="hp-monster-third-stage">100</div>
+        <img src="img/boss.png">
+        <div id="hp-player-third-stage">100</div>
+
+        <div>
+            <button id="attack-third-stage">Атаковать</button>
+            <button id="heal-third-stage">Лечиться</button>
+        </div>
+    </div>
+
+    <div id="fourth-stage" class="hide">
+    <div>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+</div>
+    <div>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button" id="true-btn"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+</div>
+    <div>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    <button class="fourth-button"></button>
+    </div>
+    <div id="answer-fourth-stage"></div>
+    </div>
+
+    <div id="fifth-stage" class="hide">
+        <div id="hp-monster-fifth-stage">500</div>
+        <img src="img/glavboss.png">
+        <div id="hp-player-fifth-stage">800</div>
+
+        <div>
+            <button id="attack-fifth-stage">Атаковать</button>
+            <button id="heal-fifth-stage">Лечиться</button>
+        </div>
+        <div id="answer-fifth-stage"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
